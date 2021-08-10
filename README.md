@@ -25,3 +25,6 @@ ________________________________________________________________________________
 CssVar is a project where we work with updating variables in CSS, and we show that by updating either how much blur the photo has, by updating how much padding there is
 or what color the padding will be.
 ___________________________________________________________________________________________________________________________________________________________________________
+
+JavaScript Drumkit is a project where we take computer inputs and use them to play a sound.
+___________________________________________________________________________________________________________________________________________________________________________
