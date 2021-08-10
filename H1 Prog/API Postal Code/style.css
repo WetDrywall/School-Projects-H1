@@ -1,0 +1,65 @@
+html {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: rgb(46,28,42);
+    background: linear-gradient(180deg, rgba(46,28,42,1) 18%, rgba(166,81,164,1) 55%, rgba(66,85,227,1) 89%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-width: 100%;
+    min-height: 100%;
+    box-sizing: border-box;
+    background-position: fixed;
+    -webkit-touch-callout: none; 
+    -webkit-user-select: none;
+     -khtml-user-select: none; 
+       -moz-user-select: none; 
+        -ms-user-select: none; 
+            user-select: none;
+    text-align: center;
+}
+
+.searchBar{
+  height: 50px;
+  width: 300px;
+  justify-content: flex;
+  max-width: 400px;
+  margin: 50px auto;
+  background: white;
+  color: black;
+  border: white;
+  text-align: center;
+
+}
+
+.searchBar:hover{
+  transition: 0.1;
+ opacity: 50%;
+  
+}
+
+ul{
+  color: white;
+}
+
+.name{
+  color: white;
+}
+
+#glow {
+    text-align: center;
+    font-size: 80px;
+    color: #fff;
+    text-align: center;
+    
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+  }
+  
+  @-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+    }
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+    }
+  }
